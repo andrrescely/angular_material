@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-wrap: wrap; /* las tarjetas se envuelvan en varias filas si es necesario */
+  justify-content: space-around; /* Alineacion de  las tarjetas en el centro del contenedor */
+
+  .card-material {
+    max-width: 400px;
+    width: 100%; /* las tarjetas tengan el 100% del ancho disponible en dispositivos pequeños */
+    margin: 1%; /* Reduce el margen para dar más espacio a las tarjetas */
+    box-sizing: border-box; /* Evita que el margen agregue al ancho total */
+  }
+  .card-material img {
+  max-width: 100%; /* Ajusta el tamaño máximo de las imágenes al 100% del contenedor */
+  height: auto;    /*  la altura se ajuste automáticamente  */
+}
+}
